@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "syncBot"
+version = "0.1.0"
+description = ""
+authors = ["lingluo-maple <69478525+lingluo-maple@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+graia-ariadne = "^0.6.16"
+Telethon = {extras = ["cryptg"], version = "^1.24.0"}
+SQLAlchemy = "^1.4.36"
+filetype = "^1.0.13"
+Pillow = "^9.1.0"
+cryptography = "^37.0.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = {version = "^22.3.0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
